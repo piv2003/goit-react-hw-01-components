@@ -9,11 +9,18 @@ body {
   background: -webkit-linear-gradient(45deg, rgb(207, 154, 201), rgb(86, 181, 184), rgb(253, 202, 6));
   background: -moz-linear-gradient(45deg, rgb(207, 154, 201), rgb(86, 181, 184), rgb(253, 202, 6));
   background: linear-gradient(45deg, rgb(207, 154, 201), rgb(86, 181, 184), rgb(253, 202, 6));
+  animation: background 3000ms infinite alternate;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-
-
+@keyframes background {
+  50% {    
+     background: -webkit-linear-gradient(225deg, rgb(207, 154, 201), rgb(86, 181, 184), rgb(253, 202, 6));    
+  background: -moz-linear-gradient(225deg, rgb(207, 154, 201), rgb(86, 181, 184), rgb(253, 202, 6));
+  background: linear-gradient(225deg, rgb(207, 154, 201), rgb(86, 181, 184), rgb(253, 202, 6)); 
+    box-shadow: 0 -200px 100px -100px yellowgreen inset;
+  }
+}
