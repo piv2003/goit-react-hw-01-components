@@ -5,7 +5,7 @@ const UserProfile = styled.div`
   margin-right: auto;
   margin-left: auto;
   padding: 25px 10px 0;
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   box-shadow: 5px -3px 37px -3px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -18,9 +18,11 @@ const Userinfo = styled.div`
 const UserAvatar = styled.img`
   display: block;
   width: 150px;
-  border: 1px solid black;
-  border-radius: 45em;
+  border: none;
+  border-radius: 15em;
+  box-shadow: 2px -3px 17px -3px rgba(0, 0, 0, 0.85);
   margin-bottom: 35px;
+  background-color: rgba(200, 200, 100, 0.9);
 `;
 
 const UserName = styled.p`
@@ -55,7 +57,7 @@ const UserStats = styled.ul`
   list-style: none;
 
   & li {
-    display: inline-flex;
+    display: flex;
     flex-basis: calc((100% / 3) - 20px - 2px);
     flex-direction: column;
     padding: 10px;
@@ -69,7 +71,7 @@ const UserStats = styled.ul`
 const StatsLabel = styled.span`
   font-size: 15px;
   font-weight: 500;
-  color: #99d;
+  color: #77d;
 `;
 const StatsQuantity = styled.span`
   font-size: 18px;

@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import {
   UserProfile,
-  UserAvatar,
   Userinfo,
+  UserAvatar,
   UserName,
   UserTag,
   UserLocation,
