@@ -28,14 +28,12 @@ const UserAvatar = styled.img`
 const UserName = styled.p`
   margin: 0;
   margin-bottom: 10px;
-
   font-size: 20px;
   font-weight: 700;
 `;
 const UserTag = styled.p`
   margin: 0;
   margin-bottom: 10px;
-
   font-size: 18px;
   font-weight: 500;
   color: grey;
@@ -43,10 +41,9 @@ const UserTag = styled.p`
 const UserLocation = styled.p`
   margin: 0;
   margin-bottom: 10px;
-
   font-size: 18px;
   font-weight: 500;
-  color: grey;
+  color: darkgreen;
 `;
 const UserStats = styled.ul`
   display: flex;
@@ -60,13 +57,14 @@ const UserStats = styled.ul`
     display: flex;
     flex-basis: calc((100% / 3) - 20px - 2px);
     flex-direction: column;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 250, 0.15);
+    box-shadow: 1px -3px 7px -3px rgba(0, 0, 0, 0.85);
   }
 `;
 const StatsLabel = styled.span`
