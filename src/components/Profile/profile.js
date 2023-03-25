@@ -7,8 +7,8 @@ import {
   UserTag,
   UserLocation,
   UserStats,
-  StatsLabel,
-  StatsQuantity,
+  UserStatsLabel,
+  UserStatsQuantity,
 } from './profile.styled';
 
 export const Profile = ({
@@ -31,16 +31,16 @@ export const Profile = ({
 
       <UserStats>
         <li>
-          <StatsLabel>Followers</StatsLabel>
-          <StatsQuantity>{followers}</StatsQuantity>
+          <UserStatsLabel>Followers</UserStatsLabel>
+          <UserStatsQuantity>{followers}</UserStatsQuantity>
         </li>
         <li>
-          <StatsLabel>Views</StatsLabel>
-          <StatsQuantity>{views}</StatsQuantity>
+          <UserStatsLabel>Views</UserStatsLabel>
+          <UserStatsQuantity>{views}</UserStatsQuantity>
         </li>
         <li>
-          <StatsLabel>Likes</StatsLabel>
-          <StatsQuantity>{likes}</StatsQuantity>
+          <UserStatsLabel>Likes</UserStatsLabel>
+          <UserStatsQuantity>{likes}</UserStatsQuantity>
         </li>
       </UserStats>
     </UserProfile>

@@ -67,12 +67,12 @@ const UserStats = styled.ul`
     box-shadow: 1px -3px 7px -3px rgba(0, 0, 0, 0.85);
   }
 `;
-const StatsLabel = styled.span`
+const UserStatsLabel = styled.span`
   font-size: 15px;
   font-weight: 500;
   color: #77d;
 `;
-const StatsQuantity = styled.span`
+const UserStatsQuantity = styled.span`
   font-size: 18px;
   font-weight: 700;
 `;
@@ -85,6 +85,6 @@ export {
   UserTag,
   UserLocation,
   UserStats,
-  StatsLabel,
-  StatsQuantity,
+  UserStatsLabel,
+  UserStatsQuantity,
 };
