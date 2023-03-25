@@ -60,11 +60,12 @@ const UserStats = styled.ul`
     display: flex;
     flex-basis: calc((100% / 3) - 20px - 2px);
     flex-direction: column;
-    padding: 10px;
-
+    padding: 5px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 50px;
+    border-radius: 20px;
     border: 1px solid rgba(0, 0, 250, 0.15);
   }
 `;
