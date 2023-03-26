@@ -6,8 +6,8 @@ const StatisticsSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 450px;
-  margin: 20px auto 0;
+  max-width: 370px;
+  margin: 10px auto 0;
   padding: 25px 10px 0;
   background-color: rgba((150, 150, 150, 0.7));
   box-shadow: 2px -3px 37px -3px rgba(0, 0, 0, 0.75);
@@ -15,7 +15,6 @@ const StatisticsSection = styled.section`
 `;
 const StatisticsTitle = styled.h2`
   margin: 0;
-  margin-bottom: 0px;
   margin-bottom: 20px;
   text-align: center;
   text-shadow: 1px 1px 0 rgb(234, 234, 234), 2px 2px 0 rgb(213, 213, 213),
@@ -53,12 +52,13 @@ const StatisticsItem = styled.li`
   display: inline-flex;
   flex-basis: calc((100% / 5) - 20px - 2px);
   flex-direction: column;
-  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
   box-shadow: 1px -3px 7px -3px rgba(0, 0, 0, 0.85);
-
   text-align: center;
   background-color: ${getRandomColor};
-  border-radius: 50px;
+  border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.15);
 `;
 const ItemLabel = styled.span`
