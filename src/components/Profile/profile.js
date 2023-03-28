@@ -9,7 +9,7 @@ import {
   UserStats,
   UserStatsLabel,
   UserStatsQuantity,
-} from './profile.styled';
+} from './Profile.styled';
 
 export const Profile = ({
   avatar,
