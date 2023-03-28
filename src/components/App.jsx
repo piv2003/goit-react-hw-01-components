@@ -1,9 +1,9 @@
 import user from '../data/user.json';
-import { Profile } from './Profile/Profile';
+import { Profile } from './Profile/profile';
 import data from '../data/data.json';
-import { Statistics } from './Statistics/Statistics';
+import { Statistics } from './Statistics/statistics';
 import friends from '../data/friends.json';
-import { FriendList } from './FriendList/FriendList';
+import { FriendList } from './FriendList/friendList';
 
 export const App = () => {
   return (
