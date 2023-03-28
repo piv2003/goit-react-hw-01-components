@@ -13,6 +13,7 @@ const StatisticsSection = styled.section`
   box-shadow: 2px -3px 37px -3px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
 `;
+
 const StatisticsTitle = styled.h2`
   margin: 0;
   margin-bottom: 20px;
@@ -40,13 +41,16 @@ const StatisticsTitle = styled.h2`
   font-size: 30px;
   font-family: Verdana, Geneva, sans-serif;
 `;
+
 const StatisticsList = styled.ul`
   display: flex;
   width: 100%;
   margin: 0;
+  margin-bottom: 15px;
   padding: 0;
   list-style: none;
 `;
+
 const StatisticsItem = styled.li`
   text-align: center;
   display: inline-flex;
@@ -61,10 +65,12 @@ const StatisticsItem = styled.li`
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.15);
 `;
+
 const ItemLabel = styled.span`
   font-size: 15px;
   font-weight: 500;
 `;
+
 const ItemPercentage = styled.span`
   font-size: 18px;
   font-weight: 700;
