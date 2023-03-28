@@ -13,4 +13,6 @@ const Friends = styled.ul`
   color: darkblue;
 `;
 
-export { Friends };
+const Friend = styled.li``;
+
+export { Friends, Friend };
