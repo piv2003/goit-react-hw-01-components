@@ -54,7 +54,7 @@ const StatisticsList = styled.ul`
 const StatisticsItem = styled.li`
   text-align: center;
   display: inline-flex;
-  flex-basis: calc((100% / 5) - 20px - 2px);
+  flex-basis: calc((100% / 5) - 17px);
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
@@ -62,6 +62,7 @@ const StatisticsItem = styled.li`
   box-shadow: 1px -3px 7px -3px rgba(0, 0, 0, 0.85);
   text-align: center;
   background-color: ${getRandomColor};
+   );
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.15);
 `;
