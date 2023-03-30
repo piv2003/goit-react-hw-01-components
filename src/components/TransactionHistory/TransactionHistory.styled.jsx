@@ -5,37 +5,50 @@ const TransactionTable = styled.table`
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  text-align: center;
   background-color: #f5f5f5;
   box-shadow: 5px -3px 37px -3px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
+  text-align: center;
   border: 2px solid rgba(0, 0, 0, 0.85);
 
   th {
     padding: 15px;
     font-size: 15px;
     font-weight: 900;
-    color: #0e55eecb;
     border-style: solid;
     border-width: 0 1px 1px 0;
     border-color: #000000;
     box-shadow: 5px -3px 37px -3px rgba(0, 0, 0, 0.75);
-    background-color: rgba(243, 167, 214, 0.89);
+    background-color: rgba(250, 200, 228, 0.89);
+  }
+
+  th:nth-child(1),
+  td:nth-child(1) {
+    color: #000;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    color: #64024fcb;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    color: #ff04abcb;
   }
 
   td {
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.95);
-    color: darkgreen;
     font-weight: 500;
   }
 
   tr:nth-child(odd) {
-    background-color: #f8f4f4d3;
+    background-color: #fff;
   }
 
   tr:nth-child(even) {
-    background: linear-gradient(270deg, #cfecd0, #a0cea7, #a3a8f5);
+    background: linear-gradient(270deg, #e5f3e5, #c5f7c3, #c1c5fa);
   }
 `;
 
