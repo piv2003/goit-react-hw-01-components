@@ -1,5 +1,5 @@
 import user from 'data/user.json';
-import { Profile } from 'components/Profile/Profile.js';
+import { Profile } from 'components/Profile/profile.js';
 import data from 'data/data.json';
 import { Statistics } from 'components/Statistics/statistics.js';
 import friends from 'data/friends.json';
