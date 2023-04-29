@@ -7,17 +7,20 @@ import { FriendList } from 'components/FriendList/FriendList.js';
 import transactions from 'data/transactions.json';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory.js';
 
+const { username, tag, location, avatar } = user; //property destructuring
+const { followers, views, likes } = user.stats; //property destructuring
+
 export const App = () => {
   return (
     <main>
       <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        followers={user.stats.followers}
-        views={user.stats.views}
-        likes={user.stats.likes}
+        username={username}
+        tag={tag}
+        location={location}
+        avatar={avatar}
+        followers={followers}
+        views={views}
+        likes={likes}
       ></Profile>
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
