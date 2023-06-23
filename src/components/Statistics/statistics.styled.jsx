@@ -48,7 +48,6 @@ const StatisticsList = styled.ul`
   margin: 0;
   margin-bottom: 15px;
   padding: 0;
-  list-style: none;
 `;
 
 const StatisticsItem = styled.li`
