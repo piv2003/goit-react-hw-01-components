@@ -22,18 +22,17 @@ const TransactionTable = styled.table`
     background-color: rgba(250, 200, 228, 0.89);
   }
 
-  th:nth-child(1),
-  td:nth-child(1) {
+  td:nth-of-type(1) {
     color: #000;
   }
 
-  th:nth-child(2),
-  td:nth-child(2) {
+  th:nth-of-type(2),
+  td:nth-of-type(2) {
     color: #64024fcb;
   }
 
-  th:nth-child(3),
-  td:nth-child(3) {
+  th:nth-of-type(3),
+  td:nth-of-type(3) {
     color: #ff04abcb;
   }
 
@@ -43,11 +42,11 @@ const TransactionTable = styled.table`
     font-weight: 500;
   }
 
-  tr:nth-child(odd) {
+  tr:nth-of-type(odd) {
     background-color: #fff;
   }
 
-  tr:nth-child(even) {
+  tr:nth-of-type(even) {
     background: linear-gradient(270deg, #e5f3e5, #c5f7c3, #c1c5fa);
   }
 `;
