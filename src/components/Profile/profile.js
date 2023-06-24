@@ -16,9 +16,10 @@ export const Profile = ({
   username,
   tag,
   location,
-  followers,
-  views,
-  likes,
+  // followers,
+  // views,
+  // likes,
+  stats,
 }) => {
   return (
     <UserProfile>
@@ -32,15 +33,15 @@ export const Profile = ({
       <UserStats>
         <li>
           <UserStatsLabel>Followers</UserStatsLabel>
-          <UserStatsQuantity>{followers}</UserStatsQuantity>
+          <UserStatsQuantity>{stats.followers}</UserStatsQuantity>
         </li>
         <li>
           <UserStatsLabel>Views</UserStatsLabel>
-          <UserStatsQuantity>{views}</UserStatsQuantity>
+          <UserStatsQuantity>{stats.views}</UserStatsQuantity>
         </li>
         <li>
           <UserStatsLabel>Likes</UserStatsLabel>
-          <UserStatsQuantity>{likes}</UserStatsQuantity>
+          <UserStatsQuantity>{stats.likes}</UserStatsQuantity>
         </li>
       </UserStats>
     </UserProfile>
@@ -52,7 +53,7 @@ Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  followers: PropTypes.number.isRequired,
-  views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired,
+  // followers: PropTypes.number.isRequired,
+  // views: PropTypes.number.isRequired,
+  // likes: PropTypes.number.isRequired,
 };
