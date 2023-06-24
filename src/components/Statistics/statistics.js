@@ -8,13 +8,13 @@ import {
   ItemPercentage,
 } from './statistics.styled';
 
-export const Statistics = ({ title, statistics = [] }) => {
+export const Statistics = ({ title, statisticalData = [] }) => {
   return (
     <StatisticsSection>
       {title && <StatisticsTitle>{title.toUpperCase()}</StatisticsTitle>}
 
       <StatisticsList>
-        {statistics.map(({ id, label, percentage }) => (
+        {statisticalData.map(({ id, label, percentage }) => (
           <StatisticsItem key={id}>
             <ItemLabel>{label}</ItemLabel>
             <ItemPercentage>{percentage}%</ItemPercentage>
