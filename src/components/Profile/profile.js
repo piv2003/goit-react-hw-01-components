@@ -11,16 +11,7 @@ import {
   UserStatsQuantity,
 } from './profile.styled';
 
-export const Profile = ({
-  avatar,
-  username,
-  tag,
-  location,
-  // followers,
-  // views,
-  // likes,
-  stats,
-}) => {
+export const Profile = ({ avatar, username, tag, location, stats }) => {
   return (
     <UserProfile>
       <Userinfo>
