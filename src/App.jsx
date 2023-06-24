@@ -8,7 +8,6 @@ import transactions from './data/transactions.json';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory.js';
 
 const { username, tag, location, avatar, stats } = user; //property destructuring
-// const { followers, views, likes } = user.stats;
 
 export const App = () => {
   return (
@@ -18,9 +17,6 @@ export const App = () => {
         tag={tag}
         location={location}
         avatar={avatar}
-        // followers={followers}
-        // views={views}
-        // likes={likes}
         stats={stats}
       ></Profile>
       <Statistics title="upload stats" stats={data} />
