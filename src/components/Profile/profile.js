@@ -23,7 +23,7 @@ export const Profile = ({
   return (
     <UserProfile>
       <Userinfo>
-        <UserAvatar src={avatar} alt="User avatar" />
+        <UserAvatar src={avatar} alt="user avatar" />
         <UserName>{username}</UserName>
         <UserTag>@{tag}</UserTag>
         <UserLocation>{location}</UserLocation>
