@@ -27,11 +27,11 @@ export const Statistics = ({ title, statisticalData = [] }) => {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  data: PropTypes.arrayOf(
+  statisticalData: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
-    })
-  ),
+    }).isRequired
+  ).isRequired,
 };
