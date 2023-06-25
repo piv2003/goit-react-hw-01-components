@@ -6,7 +6,7 @@ import {
   StatisticsItem,
   ItemLabel,
   ItemPercentage,
-} from './statistics.styled';
+} from './Statistics.styled.jsx';
 
 export const Statistics = ({ title, statisticalData = [] }) => {
   return (

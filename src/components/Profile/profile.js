@@ -9,9 +9,11 @@ import {
   UserStats,
   UserStatsLabel,
   UserStatsQuantity,
-} from './profile.styled';
+} from './Profile.styled.jsx';
 
 export const Profile = ({ avatar, username, tag, location, stats }) => {
+  const { followers, views, likes } = stats; //property destructuring
+
   return (
     <UserProfile>
       <Userinfo>
@@ -24,15 +26,15 @@ export const Profile = ({ avatar, username, tag, location, stats }) => {
       <UserStats>
         <li>
           <UserStatsLabel>Followers</UserStatsLabel>
-          <UserStatsQuantity>{stats.followers}</UserStatsQuantity>
+          <UserStatsQuantity>{followers}</UserStatsQuantity>
         </li>
         <li>
           <UserStatsLabel>Views</UserStatsLabel>
-          <UserStatsQuantity>{stats.views}</UserStatsQuantity>
+          <UserStatsQuantity>{views}</UserStatsQuantity>
         </li>
         <li>
           <UserStatsLabel>Likes</UserStatsLabel>
-          <UserStatsQuantity>{stats.likes}</UserStatsQuantity>
+          <UserStatsQuantity>{likes}</UserStatsQuantity>
         </li>
       </UserStats>
     </UserProfile>
